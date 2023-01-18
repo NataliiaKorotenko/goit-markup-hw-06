@@ -610,6 +610,86 @@ margin-bottom: 16px;
     background: #31D0AA;
 }
 
+.subscribe {
+    
+    display: flex;
+
+    
+    padding: 8px 24px;
+
+}
+
+.subscribe-form {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-deck {
+    display: block;
+    margin-right: 24px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.subscribe-input {
+    display: block;
+    margin-bottom: 24px;
+    padding-top: 8px;
+    padding-left: 16px;
+
+    width: 264px;
+    height: 40px;
+
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+
+    color: rgba(255, 255, 255, 0.6);
+    background: #2E2F42;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.subscribe-btn {
+    display: flex;
+    margin: 0;
+    padding-top: 8px;
+    padding-left: 24px;
+    width: 165px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+
+    width: 165px;
+    height: 24px;
+
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: background var(--transition), box-shadow var(--transition);
+    }
+
+.subscribe-icon { 
+    fill: #FFFFFF;;
+} 
+
 .backdrop {
     position: fixed;
     z-index: 100;
@@ -788,7 +868,7 @@ color: #2E2F42;
     cursor: pointer;
 }
 
-.modal-form-submit {
+.modal-form-btn {
     display: block;
     margin: 0 auto;
     padding: 16px 32px;
