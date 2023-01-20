@@ -730,6 +730,7 @@ margin-bottom: 16px;
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
+    fill: #FFFFFF;
     background-color: #404BBF;
 }
 
@@ -749,6 +750,7 @@ margin-bottom: 16px;
 .modal-text  {
  width: 100%;
  padding-top: 48px;
+ margin-bottom: 14px;
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
@@ -805,6 +807,7 @@ color: #2E2F42;
     transform: translateY(-50%);
     left: 19px;
     display: block;
+    fill: #2E2F42;
     transition: background-color var(--transition);
 }
 
@@ -861,7 +864,7 @@ color: #2E2F42;
 .modal-form-check:checked + .modal-form-check-deck::before {
     background-color: #4D5AE5;
     background-image: url(../image/click2.svg);
- 
+    background-position: center;
 }
 
 .modal-form-check:focus + .modal-form-check-deck::before {
