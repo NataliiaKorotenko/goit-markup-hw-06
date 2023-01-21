@@ -538,8 +538,6 @@ margin-bottom: 16px;
 
 .footer-catalog {
     display: flex;
-    flex-wrap: wrap;
-    gap: 87px;
 }
 
 .footer-logo {
@@ -570,6 +568,7 @@ margin-bottom: 16px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
     margin: 0;
+    margin-right: 120px;
 }
 
 .footer-media{
@@ -587,6 +586,8 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-right: 50px;
+    
 }
 
 .footer-soc-item {
@@ -610,6 +611,10 @@ margin-bottom: 16px;
     background: #31D0AA;
 }
 
+.subscribe{
+    display: flex;
+justify-content: flex-end;
+}
 
 .subscribe-deck {
     display: block;
@@ -854,8 +859,8 @@ color: #2E2F42;
 
 .modal-form-check-deck::before {
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     border: 1.25px solid #2E2F42;
     border-radius: 2px;
     content: "";
